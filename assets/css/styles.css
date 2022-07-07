@@ -1,0 +1,54 @@
+body {
+    background-color: #7B3F00;
+}
+
+
+.text-color-blue {
+  color: blue;
+}
+
+.text-color-white {
+color: white;
+}
+
+.font-blod-400 {
+    font-weight: 400;
+}
+
+.font-blod-800 {
+    font-weight: 800;
+}
+
+bg-black {
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.mt-40 {
+    margin-top: 7em;
+}
+
+.mt-2O {
+    margin-top: 5em;
+}
+
+.my-40{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.px-10 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.pl-10 {
+    padding-left: 2em;
+}
+
+.pr-10 {
+    padding-right: 2em;
+}
