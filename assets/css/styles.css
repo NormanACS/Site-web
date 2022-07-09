@@ -11,6 +11,15 @@ body {
 color: white;
 }
 
+.text-color-black {
+    color: black;
+}
+
+.text-black-ul {
+    color: black;
+    text-decoration: underline;
+  }
+
 .font-blod-400 {
     font-weight: 400;
 }
@@ -19,14 +28,24 @@ color: white;
     font-weight: 800;
 }
 
-bg-black {
+.bg-black {
     background-color: black;
+}
+
+.bg-grey {
+    background-color: gray;
 }
 
 #nav {
     display: flex;
     flex-direction: row;
 }
+
+.nav {
+    display: flex;
+    flex-direction: row;
+  list-style-type: none;
+  }
 
 .mt-40 {
     margin-top: 7em;
@@ -45,6 +64,17 @@ bg-black {
     padding-left: 2em;
     padding-right: 2em;
 }
+
+.px-10-text {
+    text-align: center;
+    
+}
+
+.px-40 {
+    padding-left: 15em;
+  padding-right: 15em; 
+}
+
 .pl-10 {
     padding-left: 2em;
 }
@@ -52,3 +82,14 @@ bg-black {
 .pr-10 {
     padding-right: 2em;
 }
+
+.contenue-footer {
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    padding-left: 12em;
+    padding-right: 12em;
+    list-style-type: none;
+    
+}
+
