@@ -76,6 +76,7 @@ body {
 
 .bg-black {
   background-color: black;
+}
 
 .text-center {
   text-align: center;
@@ -163,6 +164,11 @@ a {
   padding-right: 12em;
 }
 
+.px-70 {
+  padding-left: 18em;
+  padding-right: 18em;
+}
+
 .pl-10 {
   padding-left: 2em;
 }
@@ -171,9 +177,8 @@ a {
   padding-left: 13em;
 }
 
-.px-60 {
-  padding-left: 13em;
-  padding-right: 13em;
+.pl-60 {
+  padding-left: 16em;
 }
 
 .px-10-text {
@@ -281,10 +286,6 @@ a {
   flex-shrink: 0;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
 .footer {
   overflow: hidden;
 }
@@ -294,21 +295,10 @@ a {
 
 .bottom {
   bottom: 0px;
-
-.flex {
-  display: flex;
 }
 
 .flex-nowrap {
   flex-wrap: nowrap;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 /* ----padding.Margin---- */
