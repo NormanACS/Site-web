@@ -1,54 +1,65 @@
-body {
-    background-color: #7B3F00;
+/* -bg-color- */
+
+.bg-brown {
+  background-color: #7b3f00;
 }
 
-
-.text-color-blue {
-  color: blue;
+.bg-brown-100 {
+  background-color: #9d7153;
 }
 
-.text-color-white {
-color: white;
+/* --text-color-- */
+
+.text-blue {
+  color: lightskyblue;
 }
 
-.font-blod-400 {
-    font-weight: 400;
+.text-center {
+  text-align: center;
 }
 
-.font-blod-800 {
-    font-weight: 800;
+.no-underline {
+  text-decoration-line: none;
 }
 
-bg-black {
-    background-color: black;
+.list-none {
+  list-style: none;
+}
+/* ---Flex--- */
+
+.flex {
+  display: flex;
 }
 
-#nav {
-    display: flex;
-    flex-direction: row;
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
-.mt-40 {
-    margin-top: 7em;
+.flex-row {
+  flex-direction: row;
 }
 
-.mt-2O {
-    margin-top: 5em;
+.justify-center {
+  justify-content: center;
 }
 
-.my-40{
-    margin-top: 5em;
-    margin-bottom: 5em;
+/* ----padding.Margin---- */
+
+.px-4 {
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
 }
 
-.px-10 {
-    padding-left: 2em;
-    padding-right: 2em;
-}
-.pl-10 {
-    padding-left: 2em;
+.m-0 {
+  margin: 0px;
 }
 
-.pr-10 {
-    padding-right: 2em;
+/* ------Grid------ */
+
+.grid {
+  display: grid;
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
