@@ -1,3 +1,4 @@
+
 /*--body--*/
 body {
   margin: 0px;
@@ -23,9 +24,23 @@ body {
   text-decoration: underline;
 }
 
-.text-color-blue {
-  color: blue;
+/* -bg-color- */
+
+.bg-brown {
+  background-color: #7b3f00;
 }
+
+.bg-brown-100 {
+  background-color: #9d7153;
+}
+
+/* --text-color-- */
+
+
+.text-blue {
+  color: lightskyblue;
+}
+
 
 .text-color-white {
   color: white;
@@ -61,7 +76,20 @@ body {
 
 .bg-black {
   background-color: black;
+
+.text-center {
+  text-align: center;
 }
+
+.no-underline {
+  text-decoration-line: none;
+}
+
+.list-none {
+  list-style: none;
+
+}
+/* ---Flex--- */
 
 .bg-brown-clair {
   background-color: #9d7153;
@@ -266,4 +294,41 @@ a {
 
 .bottom {
   bottom: 0px;
+
+.flex {
+  display: flex;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+/* ----padding.Margin---- */
+
+.px-4 {
+  padding-left: 1rem; /* 16px */
+  padding-right: 1rem; /* 16px */
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+/* ------Grid------ */
+
+.grid {
+  display: grid;
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+
 }
